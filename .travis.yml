@@ -3,13 +3,13 @@ node_js: 14
 branches:
   only: master
 install:
-  - yarn
+- yarn
 script:
-  - yarn build
-  - yarn test
+- yarn build
+- yarn test
 deploy:
   api_key:
-    secure:
+    secure: NnXr69viI4jGCQbyTn2hhiy27DewurGvunRbNhQco3onnMXNw7tZX+DdSICmLjY6VbtT/kOnYeLcc9ZUkjOSReGvkmPmA/3wJxBkQS8eVX8Pf5ZyLlNUldwpCqyWBKfDjWVDlccOtOhFcSUZuIhv5sTHiVdUnwoRCKPq53xLryuXqYDK0aEv1G13Wub4rXJA1xW2kue1Iji7bolC/heiKNkrFaJUAgCFvVIwo8MLwRJRJK+4VuslGUqytktr83fd/HPR1PTyy60+gdlU55yTF2ctTNgTBTb62U6ybQ6l/sjuIoi/xmf2dOFDV6Hx0IYTfDDijEyQMz9w2gdDFjs4liB06wBGLbKBCZzKArMZIkxgRx3hKO2BtHbkOmvsAdj+O8kCEzjGjQfQMHccU0lXUX/KmK83AqUccEmlc2qnDxtVTxLnM6kVR4FcCL2YlM+RIEN9m/bWbxINXlneUE0D5w0yN9B/oXs4WEkygmDuDkGWY+NX4h54T2TkmEWke9HX/GoUNzBWpuZNhzEzBx7rbuGkR6Px6feqZx3Bfhn6nNRN+ycN5cYYxVNIB9Flj7OpwOvUqygudy8hU6KjhoINx2hmpyYsKPY2pk9ewnt1d8F3btDYXYnG+ufpRKsDqwDCHFuLZfoYNuvYFC/OkrECTAQEixtlMyEUfBSu2rALjig=
   email: npmjs@charlesstover.com
   on:
     branch: master

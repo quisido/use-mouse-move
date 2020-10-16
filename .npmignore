@@ -5,7 +5,6 @@
 /jest/
 /node_modules/
 /src/
-/test-utils/
 /*.iml
 /.browserlistrc
 /.editorconfig
